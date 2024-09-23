@@ -419,7 +419,7 @@ color: aliceblue;}
     width: 100%;
 }
 #edu_1{
-   
+    margin-top: 100%;
     font-size: 80px;
 }
 
@@ -433,7 +433,7 @@ color: aliceblue;}
     position: relative;
     top: 50px;
     right:7px;
-    height: 270px;
+    height: 35vh;
     
 }
 .edu{
