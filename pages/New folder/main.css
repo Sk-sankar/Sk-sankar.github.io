@@ -1,0 +1,23 @@
+*{margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: linear-gradient(to right,rgb(0, 128, 255),rgb(209, 205, 205),black);
+    
+  
+}
+.photolab{
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+.photo{
+    margin-left: 70px;
+    margin-top: 20px;
+    margin-bottom: 200px;
+    box-sizing: border-box;
+    border: double 3px white;
+    height: 874px;
+    width: 397px;
+    position: relative;
+    
+}

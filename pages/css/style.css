@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Element Selector */
+body {
+text-align: center;
+
+}
+
+/* Class Selector */
+.inline-style {
+  color: red;
+
+
+}
+
+.menu h2 {
+  padding: 20px;
+ 
+}
+
+.dish {
+text-align: center;
+width: 300px ;
+height: 450px;
+box-sizing: border-box;
+border: 2px solid gray;
+padding: 10px;
+margin: auto;
+padding-bottom: 10px; 
+border-radius: 5px;
+margin-bottom: 30px;
+background-color: rgb(245, 241, 236);
+}
+
+.dish img {
+  width: 100%;
+  height: 80%;
+  border-radius: 3px;
+}
+
+.dish h3 {
+padding: 10px;
+}
+
+/* ID Selector */
+#intro {
+padding: 10px;
+    
+}
+
+/* Descendant Selector */
+.contact-info li {
+  font-weight: bold;
+  
+    
+}
+
+/* Class Selector for Box Model */
+.box-model-example {
+  padding-bottom: 20px;
+
+}
+
+/* Footer Styles */
+.footer {
+ background-color:  rgb(250, 59, 0);
+padding: 10px;
+color: white;
+}
+
+.footer h2 {
+ /* Space below the heading */
+/* Font size for the heading */
+padding-bottom: 10px;
+font-size: x-large;
+}
+
+.contact-info {
+  /* Remove bullet points */
+  list-style-type: none;
+}
+div{
+  width: 100%;
+  
+}
+
+.contact-info li {
+     /* Space between each contact item */
+   /* Font size for contact information */
+   padding: 7px;
+   font-size: medium;
+}
