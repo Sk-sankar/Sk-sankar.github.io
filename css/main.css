@@ -150,13 +150,13 @@ a:hover {
     height: 50vh;
     position: relative;
     top: 50px;
-    right: -280px;
+    right: -260px;
 }
 
 #edu {
     color: white;
     font-size: 1.5em;
-    margin-left: 20px;
+    margin-left: 25px;
 
 }
 
@@ -305,8 +305,9 @@ color: aliceblue;}
 }
 
 .dail{
+    
     font-size: 90px;
-    text-decoration:underline solid 9px;
+    text-decoration:underline solid 5px;
     padding-left: 20%;
     padding-bottom: 10px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -324,12 +325,30 @@ color: aliceblue;}
 #details a:hover{
     color: rgb(248, 174, 64);
 }
+#details li{
+    margin-top: 20px;
+}
 .fa-solid{
     padding-right: 20px;
     
 }
 .fa-brands{
     padding-right: 20px;
+}
+.fa-github{
+    position: relative;
+    top: 173px;
+    right: -94%;
+}
+.fa-instagram{
+    position: relative;
+    top: 240px;
+    right: -85%;
+}
+.fa-facebook{
+    position: relative;
+    top: 106px;
+    right: -103%;
 }
 
 
@@ -382,7 +401,7 @@ color: aliceblue;}
     #container1{
         height: 100vh;
         width: 100%;
-        margin-top: 60%;
+        margin-top: 0%;
         
     }
     #my{
@@ -438,6 +457,7 @@ color: aliceblue;}
 .edu{
     position: relative;
     bottom: 500px;
+    
 }
 
 
@@ -445,6 +465,7 @@ color: aliceblue;}
 
 #skills{
     width: 100%;
+    
     
 }
 
@@ -545,4 +566,23 @@ color: aliceblue;}
     padding-left: 10px;
     padding-right: 10px;
 }
+#details li{
+    margin-top: 20px;
+}
+.fa-github{
+    position: relative;
+    top: 160px;
+    right: -330px;
+}
+.fa-instagram{
+    position: relative;
+    top: 203px;
+    right: -250px;
+}
+.fa-facebook{
+    position: relative;
+    top: 117px;
+    right: -290px;
+}
+
 }
