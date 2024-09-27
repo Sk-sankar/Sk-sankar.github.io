@@ -47,6 +47,7 @@ header {
     background-image: linear-gradient(to right,#373131, rgb(34, 25, 25));
     z-index: 8;
     width: 100%;
+    padding: 20px;
 }
 .footer{
     background-image: linear-gradient(to right,#373131, rgb(34, 25, 25));
@@ -68,7 +69,8 @@ header {
     font-size: 25px;
 }
 
-a:hover {
+a:hover,
+a.active {
     color: rgb(248, 174, 64);
     text-shadow: 5px 5px 5px rgb(212, 205, 205);
 }
