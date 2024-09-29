@@ -5,33 +5,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>portfolio</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="icon" href="./assets/aboutme.png">
 </head>
 
 <body>
-
-    <section class="container">
-        <header>
-            <div class="index">
-                <div class="line"></div>
-                <div>
-                    <nav class="navbar">
-                        <a href="./index.html" class="active">Home</a>
-                        <a href="#aboutme">About me</a>
-                        <a href="#education">Education</a>
-                        <a href="#skills">Skills</a>
-                        <a href="#contact">Contact me</a>
-                    </nav>
-                </div>
+    <header>
+        <div class="index">
+            <div class="line"></div>
+            <div>
+                <nav class="navbar">
+                    <a href="./index.html" class="active">Home</a>
+                    <a href="#aboutme">About me</a>
+                    <a href="#education">Education</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#contact">Contact me</a>
+                </nav>
             </div>
-        </header>
+        </div>
+    </header>
+
+    <section id="container">
+    
         <main class="home">
 
-            <h1 class="main">SANKAR</h1>
-            <h3 class="name"> I am a Fullstack Developer</h3>
+            <h1 data-aos="fade-down" data-aos-duration="1300" class="main">SANKAR</h1>
+            <h3 data-aos="fade-up" data-aos-duration="1300" class="name"> I am a Fullstack Developer</h3>
         </main>
 
     </section>
@@ -44,8 +48,8 @@
 
             <div class="about">
 
-                <h1 id="ab">ABOUT ME</h1>
-                <p id="ab_1">Hello, I’m Sankar. I’m 18 years old and finished school this year, 2024. I’m really interested in coding and I’m a computer science student. I also know the basics of HTML and CSS and I am also learning JavaScript. In academy I am also getting a chance to improve English and Life Skills. I am a movie buff and I am a big fan of Vijay!</p>
+                <h1 data-aos="fade-down" data-aos-duration="1300" id="ab">ABOUT ME</h1>
+                <p data-aos="fade-up" data-aos-duration="1300" id="ab_1">Hello, I’m Sankar. I’m 18 years old and finished school this year, 2024. I’m really interested in coding and I’m a computer science student. I also know the basics of <span>HTML</span>and <span>CSS</span> and I am also learning JavaScript. In academy I am also getting a chance to improve English and Life Skills. I am a movie buff and I am a big fan of  Vijay!</p>
             </div>
         </div>
 
@@ -54,12 +58,12 @@
     <section id="education">
         <div id="learning">
             <div id="edu">
-                <h1 id="edu_1">EDUCATION</h1>
+                <h1 data-aos="fade-down" data-aos-duration="1300" id="edu_1">EDUCATION</h1>
             
-                <h3>I passed out from the Tamil Nadu <br> State Board School in 2024 with a score of 83%. </h3>
+                <h3 data-aos="fade-up" data-aos-duration="1300">I passed out from the Tamil Nadu <br> State Board School in 2024 with a score of <span>83%</span>. </h3>
             </div>
             <div id="img_1">
-                <img id="read" src="./assets/education.png" alt="">
+                <img data-aos="flip-left" data-aos-duration="1800" id="read" src="./assets/education.png" alt="">
             </div>
         </div>
 
@@ -69,39 +73,39 @@
         <main class="list">
 
             <div>
-                <img id="photo" src="./assets/skills.png" alt="">
+                <img data-aos="flip-right" data-aos-duration="1800" id="photo" src="./assets/skills.png" alt="">
             </div>
             <div>
                 <h1>
-                    <h1>SKILLS</h1>
+                    <h1 data-aos="fade-down" data-aos-duration="1300">SKILLS</h1>
                 </h1>
                 <div class="skills-area">
-                    <div class="skill">
-                        <div class="skill-title"> HTML <a href="./pages/second one/index.html"><i
-                                    class="fa-brands fa-html5"></i></a> <a
-                                href="./pages/first one/practice html/home.html"> <i class="fa-brands fa-html5"></i></a>
+                    <div data-aos="fade-down" data-aos-duration="1300" class="skill">
+                        <div class="skill-title"> HTML  <a href="./pages/first one/practice html/home.html" target="_blank"> <i class="fa-brands fa-html5"></i></a> <a href="./pages/second one/index.html" target="_blank"><i
+                                    class="fa-brands fa-html5"></i></a> 
+                                  
                         </div>
                         <div class="skill-bar"></div>
                         <div class="html skill-fill">
                             <span class="skill-percent">90%</span>
                         </div>
                     </div>
-                    <div class="skill">
-                        <div class="skill-title">CSS <br><a href="./pages/css"><i class="fa-brands fa-css3-alt"></i></a><a href="./pages/css2/CSS_EOT_6Sep/CSS_EOT_6Sep/index.html"><i class="fa-brands fa-css3-alt"></i></a><br> <a href="./pages/css1/index.html"><i class="fa-brands fa-css3-alt"></i></a></div>
+                    <div data-aos="fade-down" data-aos-duration="1300" class="skill">
+                        <div class="skill-title">CSS <br><a href="./pages/css " target="_blank"><i class="fa-brands fa-css3-alt"></i></a><a href="./pages/css2/CSS_EOT_6Sep/CSS_EOT_6Sep/index.html" target="_blank"><i class="fa-brands fa-css3-alt"></i></a><br> <a href="./pages/css1/index.html" target="_blank"><i class="fa-brands fa-css3-alt"></i></a></div>
                         <div class="skill-bar"></div>
                         <div class="css skill-fill">
                             <span class="skill-percent">80%</span>
                         </div>
                     </div>
-                    <div class="skill">
-                        <div class="skill-title">JavScript <a href="https://github.com/Sk-sankar/javascript-practice"><i class="fa-brands fa-js"></i></a></div>      
+                    <div data-aos="fade-down" data-aos-duration="1300" class="skill">
+                        <div class="skill-title">JavScript <a href="https://github.com/Sk-sankar/javascript-practice" target="_blank"><i class="fa-brands fa-js"></i></a></div>      
                         <div class="skill-bar"></div>
                         <div class="js skill-fill">
                             <span class="skill-percent">40%</span>
                         </div>
                     </div>
-                    <div class="skill">
-                        <div class="skill-title">Photography <a href="./pages/New folder/index.html"><i class="fa-solid fa-camera"></i></a></i></div>
+                    <div data-aos="fade-down" data-aos-duration="1300" class="skill">
+                        <div class="skill-title">Photography <a href="./pages/New folder/index.html" target="_blank"><i class="fa-solid fa-camera"></i></a></i></div>
                         <div class="skill-bar"></div>
                         <div class="photo skill-fill">
                             <span class="skill-percent">70%</span>
@@ -114,16 +118,16 @@
 
     <section id="contact">
         <div id="user">
-            <h2 class="dail"> Contact Details</h2>
+            <h2 data-aos="fade-down" data-aos-duration="1300" class="dail"> Contact Details</h2>
             <ul id="details">
-                <li> <i class="fa-solid fa-phone"></i>Phone:7806876380 </li>
+                <li data-aos="fade-down" data-aos-duration="1200"> <i class="fa-solid fa-phone"></i>Phone:7806876380 </li>
 
-                <li><a href="https://www.linkedin.com/in/sankar-karunakaran-36a86332a/"><i class="fa-brands fa-linkedin"></i> </a>LinkedIn :Sankar Karunakaran </li>
-                <li> <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=CllgCJNstXBTDphVCmwksPJWrwZVTZBFbcvWSvhzPjWHlNSzrcDjQMrNlJzqvjBCjRJQLzWXWpg"><i class="fa-solid fa-envelope"></i></a></i>Email:skarunakaran.FSSA.freshworks.com</li>
+                <li data-aos="fade-down" data-aos-duration="1100"><a href="https://www.linkedin.com/in/sankar-karunakaran-36a86332a/"><i class="fa-brands fa-linkedin"></i> </a>LinkedIn :Sankar Karunakaran </li>
+                <li data-aos="fade-down" data-aos-duration="1000"> <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=CllgCJNstXBTDphVCmwksPJWrwZVTZBFbcvWSvhzPjWHlNSzrcDjQMrNlJzqvjBCjRJQLzWXWpg"><i class="fa-solid fa-envelope"></i></a></i>Email:skarunakaran.FSSA.freshworks.com</li>
 
-                 <li><a href="https://www.instagram.com/_an_introvert_11/"><i class="fa-brands fa-instagram"></i></a></li>
-                 <li><a href="https://github.com/Sk-sankar"><i class="fa-brands fa-github"></i></a></li>
-                <li><a href="https://www.facebook.com/profile.php?id=100045563859165"> <i class="fa-brands fa-facebook"></i></a></li>
+                 <li data-aos="fade-down" data-aos-duration="1000"><a href="https://www.instagram.com/_an_introvert_11/"><i class="fa-brands fa-instagram"></i></a></li>
+                 <li data-aos="fade-down" data-aos-duration="1200"><a href="https://github.com/Sk-sankar"><i class="fa-brands fa-github"></i></a></li>
+                <li data-aos="fade-down" data-aos-duration="1300"> <a href="https://www.facebook.com/profile.php?id=100045563859165"> <i class="fa-brands fa-facebook"></i></a></li>
             </ul>
 
         </div>
@@ -135,6 +139,9 @@
         </div>
     </footer>
     <script src="./javascript/main.js"></script>
+    <script>
+        AOS.init();
+      </script>
 
 </body>
 
