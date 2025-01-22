@@ -22,7 +22,7 @@ body {
 
 .line {
     height: 2px;
-    width: 35vw;
+    width: 30vw;
     background-color: white;
     margin-top: 2.5em;
 
@@ -87,6 +87,9 @@ a.active {
     font-size: 120px;
 
 }
+#project{
+    height: 100vh;
+}
 
 
 /* about me */
@@ -104,7 +107,7 @@ a.active {
     width: 26vw;
     margin-top: 250px;
     box-shadow: 0px 0px 20px rgb(241, 241, 241);
-    transition: .9s;
+    transition: 0.3s;
     margin-left: 2em;
 }
 #shankar:hover{
@@ -245,6 +248,22 @@ color: aliceblue;}
     animation: photo 2s;
     width: 350%;
 }
+button a{
+    text-decoration: none;
+    color: #373131;
+    padding: 5px;
+}
+button{
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    transition: 0.3s;
+
+}
+button:hover{
+    transform: scale(1.1);
+}
+
 
 @keyframes html{
     from{
@@ -354,7 +373,68 @@ color: aliceblue;}
     right: -103%;
 }
 
+.projects-section {
+    padding: 2rem 0;
+}
 
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.section-title {
+    padding-top: 70px;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    margin-bottom: 2rem;
+}
+
+.projects-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding-top: 20%;
+    
+}
+
+
+.project-card {
+    flex: 1 1 calc(50% - 1rem);
+    border: 1px solid #ddd;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    background-color: #ddd;
+    border: double 2px rgb(34, 25, 25);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+   
+}
+.project-card:hover{
+    transform: scale(1.1);
+}
+
+
+a {
+    text-decoration: none;
+    color: #333;
+    transition: 0.3s;
+}
+
+.card-body {
+    padding: 1rem;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #555;
+}
 
 
 
