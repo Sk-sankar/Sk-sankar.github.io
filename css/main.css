@@ -144,33 +144,54 @@ span{
 /* education */
 
 #learning {
-    height: 90vh;
-    display: flex;
-    align-items: center;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
     
-
-
 }
 
 #read {
-    height: 50vh;
+    height: 40vh;
     position: relative;
-    top: 50px;
-    right: -260px;
+    top: 230px;
+    right: 0px;
+    width: 100%;
 }
+
 
 #edu {
-    color: white;
-    font-size: 1.5em;
-    margin-left: 25px;
-
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   position: relative;
+   top: 200px;
 }
 
 
-#edu_1{
-    font-size: 100px;
-    margin-bottom: 5%;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.score{
+    height: 150px ;
+    width: 300px ;
+    background-color: white;
+    margin-top: 40px;
+    border-radius: 10px;
+    box-shadow: #555 -5px 5px 5px 5px ;
+    transition: 0.3s !important;
+    display: grid;
+    grid-template-rows: 50% 50% ;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.score:hover{
+    transform: scale(1.1);
+}
+
+.fa-star{
+    color: gold;
+    font-size: 20px;
+}
+#edu strong{
+    font-size: 30px;
 }
 
 
@@ -212,7 +233,7 @@ color: aliceblue;}
 .skill-bar {
         width: 500%;
         background: white;
-        height: 30px;
+        height: 26px;
         z-index: -1;
         border-radius: 100px;
         position: absolute;
@@ -220,7 +241,7 @@ color: aliceblue;}
 }
 .skill-fill {
     background: rgb(255, 209, 4) ;
-    height: 30px;
+    height: 26px;
     border-radius: 100px;
     display: flex;
     justify-content: flex-end;
@@ -238,15 +259,19 @@ color: aliceblue;}
 }
 .css{
     animation: css 2s;
-    width: 400%;
+    width: 450%;
 }
 .js{
     animation: js 2s;
-    width: 200%;
+    width: 450%;
 }
 .photo{
     animation: photo 2s;
-    width: 350%;
+    width: 450%;
+}
+.python{
+    animation: python 2s;
+    width: 450%;
 }
 button a{
     text-decoration: none;
@@ -278,7 +303,7 @@ button:hover{
         width: 0%;
     }
     to{
-        width: 400%;
+        width: 450%;
     }
 }
 @keyframes js{
@@ -286,7 +311,7 @@ button:hover{
         width: 0%;
     }
     to{
-        width: 200%;
+        width: 450%;
     }
 }
 @keyframes photo{
@@ -294,7 +319,15 @@ button:hover{
         width: 0%;
     }
     to{
-        width: 350%;
+        width: 450%;
+    }
+}
+@keyframes python{
+    from{
+        width: 0%;
+    }
+    to{
+        width: 450%;
     }
 }
 .list h1{
@@ -395,7 +428,7 @@ button:hover{
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
-    padding-top: 20%;
+    padding-top: 5%;
     
 }
 
@@ -409,10 +442,11 @@ button:hover{
     border: double 2px rgb(34, 25, 25);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     transition: 0.3s;
+    margin-bottom: 20px;
    
 }
 .project-card:hover{
-    transform: scale(1.1);
+    transform: scale(.9) !important;
 }
 
 
