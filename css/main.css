@@ -476,10 +476,160 @@ a {
 
 
 
-/* media query */
+
 
 @media screen and (max-width:600px) {
 
+
+    * {
+        margin: 0;
+        padding: 0;
+        scroll-behavior: smooth;
+    }
+    .line{
+        display: none;
+    }
+    header{
+        
+        width: 100vw;
+        padding: 0;
+      
+    }
+    .navbar{
+        margin: 0;
+        padding: 0;
+        
+        
+    }
+    .navbar a{
+        margin-left: 0;
+        font-size: 17px;
+        margin-right: 8px;
+        
+    }
+    .main{
+        font-size: 50px;
+    }
+    #shankar{
+        width: 280px;
+    }
+    #my{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .about{
+        margin-right: 0;
+        margin-left: 0;
+    }
+    #ab{
+        font-size: 40px;
+    }
+    #ab_1{
+        font-size: 20px;
+    }
+    .list{
+        display: flex;
+        flex-direction: column;
+    }
+    .list h1{
+        font-size: 40px;
+        position: relative;
+        left: 0;
+        top: 0;
+    }
+    .skills-area{
+        padding: 0;
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+    .skill{
+        margin-bottom: 20px;
+        width: 80vw;
+    }
+    .skill-bar{
+        width: 100%;
+    }
+    .skill-fill{
+        width: 90%;
+    }   
+    .skill-percent{
+        font-size: 20px;
+    }
+    #learning{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top:100px ;
+        margin-bottom: 200px;
+    }
+    #edu{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-top: 100px;
+        margin-bottom: 50px;
+    }
+    .score{
+        width: 150px;
+        height: 100px;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    .score strong{
+        font-size: 10px !important;
+        font-weight: bold;
+    }
+    #img_1{
+        width: 300px;
+        
+    }
+    #contact{
+        display: flex;
+        flex-direction: column; 
+        justify-content: center;
+        margin-top: 50px;
+        font-size: 20px;
+
+    }
+    #user{
+        width: 200px;
+    }
+    .dail{
+        font-size: 40px;
+        width: 400px;
+        margin: 0;
+        padding: 0;
+    }
+    #details{
+        padding-left: 0;
+        margin-left:10px;
+    }
+    #details li{
+        margin-top: 10px;
+        width:80vw ;
+    }
+    .fa-github{
+        position: relative;
+        top: -33px;
+        right: -40px;
+    }
+    .fa-instagram{
+        position: relative;
+        top: 0;
+        right: 0;
+    }
+    .fa-facebook{
+        position: relative;
+        top: -65px;
+        right: -80px;
+    }
+    .endline{
+        display: none;
+    }
+    /* 
     body{
         
         width: 100vw;
@@ -513,7 +663,6 @@ a {
         font-size: 80px;
     }
 
-    /*  */
 
     #container1{
         height: 100vh;
@@ -547,7 +696,7 @@ a {
 
 
 
-    /* */
+    
 #education{
     height: 100vh;
     margin-top:150% ;
@@ -578,7 +727,7 @@ a {
 }
 
 
-/*  */
+
 
 #skills{
     width: 100%;
@@ -700,6 +849,6 @@ a {
     position: relative;
     top: 117px;
     right: -290px;
-}
+} */
 
 }
