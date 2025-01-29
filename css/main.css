@@ -460,7 +460,7 @@ input, textarea {
     border: 1px solid #ccc;
     border-radius: 4px;
 }
-button {
+#submit {
     width: 80%;
     padding: 10px;
     margin-top: 80px;
@@ -471,7 +471,7 @@ button {
     border-radius: 4px;
     cursor: pointer;
 }
-button:hover {
+#submit:hover {
     background: #0056b3;
 }
 .contact-form{
