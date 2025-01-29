@@ -352,9 +352,10 @@ button:hover{
 #contact{
     height: 100vh;
     display: grid;
+    grid-template-columns: 50% 50%;
     justify-content: center;
     align-content: center;
-    font-size: 40px;
+    font-size: 30px;
     color: white;
     
 }
@@ -370,6 +371,7 @@ button:hover{
 #details{
     list-style-type: none;
     padding-left: 90px;
+    margin-top: 50px;
     
     
 }
@@ -381,7 +383,7 @@ button:hover{
     color: rgb(248, 174, 64);
 }
 #details li{
-    margin-top: 20px;
+    margin-top: 30px;
 }
 .fa-solid{
     padding-right: 20px;
@@ -392,18 +394,28 @@ button:hover{
 }
 .fa-github{
     position: relative;
-    top: 173px;
-    right: -94%;
+    top: 150px;
+    right: -49%;
 }
 .fa-instagram{
     position: relative;
-    top: 240px;
-    right: -85%;
+    top: 215px;
+    right: -30%;
 }
 .fa-facebook{
     position: relative;
-    top: 106px;
-    right: -103%;
+    top: 85px;
+    right: -39%;
+}
+#logo{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    font-size: 40px;
+    padding-top: 0;
+    padding-left: 10px;
+    border-radius: 100%;
+    color: white;
 }
 
 .projects-section {
@@ -423,6 +435,9 @@ button:hover{
     color: white;
     margin-bottom: 2rem;
 }
+.fa-regular{
+    padding-right: 20px;
+}
 
 .projects-row {
     display: flex;
@@ -432,7 +447,49 @@ button:hover{
     
 }
 
-
+.form-group {
+    margin-bottom: 15px;
+}
+label {
+    display: block;
+    margin-bottom: 20px;
+}
+input, textarea {
+    width: 80%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+button {
+    width: 80%;
+    padding: 10px;
+    margin-top: 80px;
+    margin-left: 10px;
+    background: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:hover {
+    background: #0056b3;
+}
+.contact-form{
+    padding-left: 40px;
+    padding-top: 20px;
+    margin-left: 100px;
+    height: 500px ;
+    width: 400px;
+    border-radius: 10px;
+    background-color:#2C2525;
+    transition: 0.3s;
+    box-shadow: 2px 3px 5px 0px white;
+}
+.contact-form:hover{
+    transform: scale(1.1) !important;
+    background-color: rgb(34, 25, 25);
+    box-shadow: -2px 3px 3px 3px white;
+}
 .project-card {
     flex: 1 1 calc(50% - 1rem);
     border: 1px solid #ddd;
@@ -458,6 +515,13 @@ a {
 
 .card-body {
     padding: 1rem;
+    display: flex;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+}
+.card-body img{
+    height: 100px;
 }
 
 .card-title {
@@ -466,6 +530,7 @@ a {
 }
 
 .card-text {
+    margin-left: 10px;
     font-size: 1rem;
     color: #555;
 }
