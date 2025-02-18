@@ -263,23 +263,23 @@ color: aliceblue;}
 }
 .html{
     animation: html 2s;
-    width: 450%;
+    width: 460%;
 }
 .css{
     animation: css 2s;
-    width: 450%;
+    width: 440%;
 }
 .js{
     animation: js 2s;
-    width: 450%;
+    width: 400%;
 }
 .photo{
     animation: photo 2s;
-    width: 450%;
+    width: 350%;
 }
 .python{
     animation: python 2s;
-    width: 450%;
+    width: 400%;
 }
 button a{
     text-decoration: none;
@@ -303,7 +303,7 @@ button:hover{
         width: 0%;
     }
     to{
-        width: 450%;
+        width: 460%;
     }
 }
 @keyframes css{
@@ -311,7 +311,7 @@ button:hover{
         width: 0%;
     }
     to{
-        width: 450%;
+        width: 440%;
     }
 }
 @keyframes js{
@@ -319,7 +319,7 @@ button:hover{
         width: 0%;
     }
     to{
-        width: 450%;
+        width: 400%;
     }
 }
 @keyframes photo{
@@ -327,7 +327,7 @@ button:hover{
         width: 0%;
     }
     to{
-        width: 450%;
+        width: 350%;
     }
 }
 @keyframes python{
@@ -335,7 +335,7 @@ button:hover{
         width: 0%;
     }
     to{
-        width: 450%;
+        width: 400%;
     }
 }
 .list h1{
